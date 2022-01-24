@@ -38,7 +38,9 @@ class MainActivity : AppCompatActivity() {
             if(teamOne.isNotBlank() && teamTwo.isNotBlank()){
                 teamListViewModel.addTeam(teamOne)
                 teamListViewModel.addTeam(teamTwo)
-                resultText.text = teamListViewModel.randomTeam()
+                val randomTeamSelection = teamListViewModel.randomTeam()
+                resultText.text = getString(R.string.results_on_click, randomTeamSelection)
+
                 // Log how many teams are in our list.
                 Log.i(TAG, "Current List ${teamListViewModel.getList().size}")
                 teamListViewModel.clearList()

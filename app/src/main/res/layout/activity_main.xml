@@ -10,7 +10,8 @@
         android:id="@+id/result_textview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/results"
+        android:text="@string/results_placeholder"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -45,7 +46,8 @@
             android:id="@+id/team_two_textview"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/team_two_text" />
+            android:text="@string/team_two_text"
+            android:textSize="16sp" />
 
         <EditText
             android:id="@+id/team_two_name"
@@ -55,6 +57,7 @@
             android:hint="@string/text_hint"
             android:inputType="textPersonName"
             android:minHeight="48dp"
+            android:paddingLeft="10sp"
             tools:ignore="TextContrastCheck" />
 
     </LinearLayout>
@@ -76,7 +79,8 @@
             android:id="@+id/team_one_textview"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/team_one_text" />
+            android:text="@string/team_one_text"
+            android:textSize="16sp" />
 
         <EditText
             android:id="@+id/team_one_name"
@@ -86,6 +90,7 @@
             android:hint="@string/text_hint"
             android:inputType="textPersonName"
             android:minHeight="48dp"
+            android:paddingLeft="10sp"
             tools:ignore="TextContrastCheck,DuplicateSpeakableTextCheck" />
     </LinearLayout>
 
