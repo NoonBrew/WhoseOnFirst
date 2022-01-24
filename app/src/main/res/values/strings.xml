@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">WhoseOnFirst</string>
+    <string name="team_one_text">Team 1</string>
+    <string name="team_two_text">Team 2</string>
+    <string name="text_hint">Enter a team name.</string>
+    <string name="results">Results:</string>
+    <string name="select_team_button_text">Select Random Team</string>
+    <string name="no_team_warning">Please check to make sure you have entered two teams.</string>
+</resources>
